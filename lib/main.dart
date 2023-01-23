@@ -204,7 +204,7 @@ button(String s){
 
                                 });
                               },
-                              decoration: InputDecoration(contentPadding: EdgeInsets.symmetric(vertical: 37),
+                              decoration: InputDecoration(contentPadding: EdgeInsets.symmetric(vertical: 36),
                                 label: Text('Tax in %',
                                   style: TextStyle(fontSize: 25,
                                       fontWeight: FontWeight.normal),),

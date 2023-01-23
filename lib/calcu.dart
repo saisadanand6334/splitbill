@@ -113,9 +113,12 @@ class _FriendsState extends State<Friends> {
       ),
         ),
           SizedBox(height: 20,),
-          Text('Everybody Should Pay  \$${bill.toStringAsFixed(2)}',style: TextStyle(
-            fontSize: 40,fontWeight: FontWeight.w700,
-          ),),
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Text('Everybody Should Pay  \$${bill.toStringAsFixed(2)}',style: TextStyle(
+              fontSize: 40,fontWeight: FontWeight.w700,
+            ),),
+          ),
           SizedBox(height: 20,),
           Padding(
             padding: const EdgeInsets.all(20),
